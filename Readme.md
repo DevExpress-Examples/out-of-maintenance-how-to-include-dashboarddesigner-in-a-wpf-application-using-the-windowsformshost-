@@ -1,8 +1,6 @@
 # How to include DashboardDesigner in a WPF application using the WindowsFormsHost control
 
+The Dashboard Suite provides the [WPF Dashboard Viewer](https://docs.devexpress.com/Dashboard/119813/building-the-designer-and-viewer-applications/wpf-viewer) control to to display dashboards in a WPF application. 
 
-<p>The Dashboard Suite does not provide WPF controls. The only way to display dashboards in a WPF application is to use the standard <a href="http://msdn.microsoft.com/en-us/library/system.windows.forms.integration.windowsformshost.aspx">WindowsFormsHost</a> element, which allows displaying any Windows Forms control inside a WPF application. <br>In this case, you can generate a Ribbon Bar, which is used to configure dashboards using the <a href="https://documentation.devexpress.com/Dashboard/clsDevExpressDashboardWinDashboardDesignertopic.aspx">DashboardDesigner</a> control by executing the <a href="https://documentation.devexpress.com/Dashboard/DevExpressDashboardWinDashboardDesigner_CreateRibbontopic.aspx">CreateRibbon</a> method. Note that while Ribbon mostly works correctly, there can be some issues with certain features caused by the platforms difference: e.g. <a href="https://www.devexpress.com/Support/Center/p/Q344849">Ribbon in RibbonForm not responding to keyboard shortcuts</a>.</p>
-
-<br/>
-
+Prior to WPF Dashboard Viewer development, we suggested a workaround which uses the <a href="http://msdn.microsoft.com/en-us/library/system.windows.forms.integration.windowsformshost.aspx">WindowsFormsHost</a> element designed to display any Windows Forms control inside a WPF application. In this example the WindowsFormsHost element contains the [DashboardDesigner](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWin.DashboardDesigner) control which enables you to create and edit a dashboard.
 

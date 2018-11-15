@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MainWindow.xaml](./CS/WpfDashboardWFH/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/WpfDashboardWFH/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/WpfDashboardWFH/MainWindow.xaml.cs) (VB: [MainWindow.xaml](./VB/WpfDashboardWFH/MainWindow.xaml))
+<!-- default file list end -->
 # How to include DashboardDesigner in a WPF application using the WindowsFormsHost control
 
 The Dashboard Suite provides the [WPF Dashboard Viewer](https://docs.devexpress.com/Dashboard/119813/building-the-designer-and-viewer-applications/wpf-viewer) control to to display dashboards in a WPF application. 

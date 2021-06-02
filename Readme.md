@@ -1,8 +1,8 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [MainWindow.xaml](./CS/WpfDashboardWFH/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/WpfDashboardWFH/MainWindow.xaml))
-* [MainWindow.xaml.cs](./CS/WpfDashboardWFH/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/WpfDashboardWFH/MainWindow.xaml.vb))
+* [MainWindow.xaml](./CS/WpfDashboardHost/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/WpfDashboardHost/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/WpfDashboardHost/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/WpfDashboardHost/MainWindow.xaml.vb))
 <!-- default file list end -->
 # How to Use the WinForms DashboardDesigner Control in WPF application
 

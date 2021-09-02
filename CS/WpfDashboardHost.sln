@@ -1,5 +1,5 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfDashboardHost", "WpfDashboardHost\WpfDashboardHost.csproj", "{5A7578CB-5177-479B-A370-3AB2C38F4C74}"
 EndProject
 Global
